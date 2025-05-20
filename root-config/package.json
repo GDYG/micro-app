@@ -1,0 +1,36 @@
+{
+  "name": "root-config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack serve",
+    "start:app1": "cd ../app1 && npm start",
+    "start:app2": "cd ../app2 && npm start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "single-spa": "^6.0.3",
+    "zustand": "^5.0.4"
+  },
+  "devDependencies": {
+    "@swc/core": "^1.11.24",
+    "@swc/helpers": "^0.5.17",
+    "@types/react": "^19.1.4",
+    "@types/react-dom": "^19.1.5",
+    "css-loader": "^7.1.2",
+    "html-webpack-plugin": "^5.6.3",
+    "style-loader": "^4.0.0",
+    "swc-loader": "^0.2.6",
+    "ts-loader": "^9.5.2",
+    "typescript": "^5.8.3",
+    "webpack": "^5.99.8",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.1"
+  }
+}
